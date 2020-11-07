@@ -7,6 +7,7 @@ with open(path.join(path.abspath(path.dirname(__file__)), 'README.md'), encoding
 
 setup(
     install_requires=[
+        'PyNaCl==1.4.0',
         'pycodestyle==2.6.0',
         'pytest-xdist==2.1.0',
         'pytest==6.1.2',
@@ -17,5 +18,5 @@ setup(
     packages=find_packages(
         exclude=['tests', 'tests.*']
     ),
-    version='0.0.1',
+    version='0.0.2',
 )
